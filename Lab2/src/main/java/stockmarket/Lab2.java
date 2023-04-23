@@ -2,7 +2,7 @@ package stockmarket;
 
 import java.io.*;
 import java.util.*;
-
+// This is a test
 public class Lab2 {
 	public static String pureMain(String[] commands) {
 		// TODO: declaration of two priority queues
