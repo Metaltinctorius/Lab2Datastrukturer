@@ -1,0 +1,14 @@
+// To be able to run certain tasks, like build etc. Get a list of tasks via command: gradlew tasks in the project dir. ./gradlew tasks
+plugins {
+    id 'java'
+}
+
+// To be able to run JUnit tests, fetches dependencies from the web
+repositories {
+    mavenCentral()
+}
+
+// Specifying the dependencies
+dependencies {
+    testImplementation group: 'junit', name: 'junit', version: '4.13.2:'
+}
